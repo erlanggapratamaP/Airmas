@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "41362698216",
+    "firebase_url": "https://airmas-ce06e.firebaseio.com",
+    "project_id": "airmas-ce06e",
+    "storage_bucket": "airmas-ce06e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41362698216:android:e4111b46cf495970",
+        "android_client_info": {
+          "package_name": "id.airmas.airmas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41362698216-87ela1jm5bq72cc323r9nlvbr1ol601c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.airmas.airmas",
+            "certificate_hash": "a38923c708aa9581a08c4db2b4e80ca92f95aa73"
+          }
+        },
+        {
+          "client_id": "41362698216-f1fuuq46poposi6hpar381pmfh8mqhl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLgfcxcBQA7omLQCCdH4kQj0-j-5Xofv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41362698216-f1fuuq46poposi6hpar381pmfh8mqhl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

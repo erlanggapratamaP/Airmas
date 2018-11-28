@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Airmas</string>
+    <string name="daftar">Daftar</string>
+    <string name="namalengkap">NAMA LENGKAP</string>
+    <string name="nomortelepon">NOMOR TELEPON</string>
+    <string name="email">EMAIL</string>
+    <string name="wajibisi">*Nama Lengkap dan Nomor Telepon wajib di isi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--firstpagelogin-->
+    <string name="isilahnama">Isilah nama lengkap KTP. Nama tidak dapat dirubah setelah disimpan</string>
+    <string name="isilahnamapanggilan">Nama yang biasa digunakan untuk anda atau nama yang biasa dikenal di lingkungan rumah anda.
+        Nama dapat dirubah setelah disimpan</string>
+    <string name="name">Name</string>
+    <string name="alamat">Alamat</string>
+    <string name="alamat_lengkap">ALAMAT LENGKAP</string>
+    <string name="isilahwilayah">Pilihlah sesuai lokasi tempat anda tinggal. Tidak dapat dirubah secara langsung setelah disimpan. Cara mengubahnya terdapat pada menu bantuan</string>
+    <string name="isilahpatokan">Beritahukan patokan-patokan yang dapat mengarahkan ke lokasi anda (Contoh : gang ke tiga, Gapura hijau, sebelah warung, dsb). Patokan dapat dirubah setiap saat</string>
+    <string name="checkboxtxt">Saya telah menyetujui</string>
+</resources>
