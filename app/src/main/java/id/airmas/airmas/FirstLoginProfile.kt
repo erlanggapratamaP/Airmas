@@ -41,7 +41,7 @@ class FirstLoginProfile : AppCompatActivity(){
     private lateinit var preferences: SharedPreferences
     private lateinit var uid : String
     private lateinit var db : FirebaseFirestore
-    
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,12 +62,6 @@ class FirstLoginProfile : AppCompatActivity(){
         }
         db = FirebaseFirestore.getInstance()
 
-        //insialisasi spinner
-
-      //  val provinsiList = listItems.map { it.nama }.toString()
-
-
-//
 
     }
 

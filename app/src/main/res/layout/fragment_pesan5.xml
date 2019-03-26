@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".HomeOrder.Pesan5Fragment"
+             android:background="@color/colorPrimaryDark">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                tools:layout_editor_absoluteY="552dp"
+                android:background="@drawable/btn_back"
+                android:id="@+id/button3"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+
+        <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                tools:layout_editor_absoluteY="552dp"
+                android:background="@drawable/bg_pesan_blue"
+                android:id="@+id/button4"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+                android:background="@drawable/logoairmas"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                tools:layout_editor_absoluteY="187dp"
+                android:id="@+id/button5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginLeft="36dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginRight="36dp"
+                app:layout_constraintHorizontal_bias="1.0"/>
+
+        <TextView
+                android:text="Ketuk logo untuk konfirmasi pemesanan"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                tools:layout_editor_absoluteX="77dp"
+                android:id="@+id/textView20"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/button3"
+                android:textStyle="italic"/>
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

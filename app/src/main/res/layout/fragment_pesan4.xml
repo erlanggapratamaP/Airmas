@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".HomeOrder.Pesan4Fragment"
+             android:background="@color/colorPrimaryDark">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                tools:layout_editor_absoluteY="552dp"
+                android:background="@drawable/btn_back"
+                android:id="@+id/button3"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+
+        <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                tools:layout_editor_absoluteY="552dp"
+                android:background="@drawable/btn_next"
+                android:id="@+id/button4"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+                android:text="Harga per galon"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                tools:layout_editor_absoluteY="99dp"
+                android:id="@+id/textView22"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+
+        <TextView
+                android:text="Rp. 6000"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="98dp"
+                android:id="@+id/textView23"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"/>
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                tools:layout_editor_absoluteY="203dp"
+                tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                    android:layout_marginLeft="16dp"
+                    android:text="Jumlah galon yang dipesan"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/telex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView24"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@font/telex"
+                    android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <ImageView
+                android:src="@drawable/bg_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="243dp"
+                android:id="@+id/imageView6"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                app:layout_constraintHorizontal_bias="0.0"/>
+
+        <TextView
+                android:text="Total Harga"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25"
+                tools:layout_editor_absoluteY="259dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+
+        <TextView
+                android:text="Jumlah galon gratis dari promo"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                tools:layout_editor_absoluteY="312dp"
+                android:id="@+id/textView26"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+
+        <ImageView
+                android:src="@drawable/bg_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                tools:layout_editor_absoluteY="349dp"
+                android:id="@+id/imageView7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"/>
+
+        <TextView
+                android:text="Total yang harus dibayar"
+                android:textColor="@color/gold"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="372dp"
+                android:id="@+id/textView27"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"/>
+
+        <TextView
+                android:text="Rp. 6,000"
+                android:textColor="@color/gold"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                tools:layout_editor_absoluteY="374dp"
+                android:id="@+id/textView35"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"/>
+
+        <TextView
+                android:text="Rp. 6,000"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="312dp"
+                android:id="@+id/textView38"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"/>
+
+        <TextView
+                android:text="Rp. 12,000"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="259dp"
+                android:id="@+id/textView37"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"/>
+
+        <TextView
+                android:text="Rincian biaya"
+                android:textColor="@color/white"
+                android:fontFamily="@font/telex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="167dp"
+                android:id="@+id/textView28"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/button3"/>
+
+        <TextView
+                android:text="X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView6"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="81dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView34"/>
+
+        <TextView
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="187dp"
+                app:layout_constraintBottom_toTopOf="@+id/button4"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

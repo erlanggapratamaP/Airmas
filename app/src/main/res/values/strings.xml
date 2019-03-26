@@ -19,4 +19,11 @@
     <string name="isilahwilayah">Pilihlah sesuai lokasi tempat anda tinggal. Tidak dapat dirubah secara langsung setelah disimpan. Cara mengubahnya terdapat pada menu bantuan</string>
     <string name="isilahpatokan">Beritahukan patokan-patokan yang dapat mengarahkan ke lokasi anda (Contoh : gang ke tiga, Gapura hijau, sebelah warung, dsb). Patokan dapat dirubah setiap saat</string>
     <string name="checkboxtxt">Saya telah menyetujui</string>
+
+
+    <!--bottom navigation-->
+    <string name="title_edukasi">Edukasi</string>
+    <string name="title_informasi">Informasi</string>
+    <string name="title_promo">Promo</string>
+
 </resources>

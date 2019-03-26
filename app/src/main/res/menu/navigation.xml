@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+         android:id="@+id/navigation_edukasi"
+         android:title="@string/title_edukasi" />
+
+    <item
+            android:id="@+id/navigation_informasi"
+            android:title="@string/title_informasi" />
+
+    <item
+            android:id="@+id/navigation_promo"
+            android:title="@string/title_promo" />
+</menu>

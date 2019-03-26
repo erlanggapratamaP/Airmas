@@ -9,9 +9,10 @@
     <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
         <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="23dp"
                 android:id="@+id/tvJudul"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="16dp"
@@ -21,9 +22,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                tools:text="BANTU KAMI UNTUK MENEMUKAN ANDA"
                 android:fontFamily="@font/telex"
-                android:textColor="@color/colorPrimary"/>
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="46dp" app:layout_constraintBottom_toTopOf="@+id/tvNama"
+                android:text="BANTU KAMI UNTUK MENEMUKAN ANDA"/>
 
         <TextView
                 android:layout_width="wrap_content"
@@ -34,9 +36,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginLeft="16dp"
                 android:layout_marginStart="16dp"
+                android:id="@+id/tvNama"
                 android:layout_marginTop="46dp"
-                app:layout_constraintTop_toBottomOf="@+id/tvJudul"
-                android:id="@+id/tvNama"/>
+                app:layout_constraintTop_toBottomOf="@+id/tvJudul"/>
 
         <TextView
                 android:text="@string/isilahnama"
@@ -52,13 +54,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/tvNama"
                 android:layout_marginBottom="15dp"
                 app:layout_constraintBottom_toTopOf="@+id/et_name_firstlogin"
-                android:fontFamily="@font/telex"/>
+                android:fontFamily="@font/telex"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"/>
 
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Name"
                 android:ems="10"
                 android:id="@+id/et_name_firstlogin"
                 app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +75,7 @@
                 android:layout_marginBottom="18dp"
                 app:layout_constraintBottom_toTopOf="@+id/tvNamaPanggilan"
                 android:fontFamily="@font/telex"
-                app:layout_constraintHorizontal_bias="0.0"/>
+                app:layout_constraintHorizontal_bias="0.0" android:hint="Nama"/>
 
         <TextView
                 android:text="NAMA PANGGILAN**"
@@ -107,7 +111,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:inputType="textPersonName"
-                android:text="Nama Panggilan"
                 android:ems="10"
                 android:id="@+id/et_nama_panggilan_firstlogin"
                 android:textSize="12sp"
@@ -120,7 +123,7 @@
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView2"
                 android:fontFamily="@font/telex"
-                app:layout_constraintHorizontal_bias="0.0"/>
+                app:layout_constraintHorizontal_bias="0.0" android:hint="Nama Panggilan"/>
 
         <TextView
                 android:text="@string/alamat_lengkap"
@@ -153,7 +156,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="@string/alamat"
                 android:ems="10"
                 android:id="@+id/et_alamat_firstlogin"
                 app:layout_constraintStart_toStartOf="parent"
@@ -165,7 +167,7 @@
                 android:textSize="12sp"
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView4"
-                android:fontFamily="@font/telex"/>
+                android:fontFamily="@font/telex" android:hint="@string/alamat"/>
 
         <TextView
                 android:text="Wilayah**"
@@ -257,39 +259,37 @@
                 android:fontFamily="@font/telex"/>
 
         <Spinner
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="37dp"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown"
                 android:id="@+id/sp_kabupaten"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="12dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView9"
                 app:layout_constraintStart_toEndOf="@+id/sp_provinsi"
-                android:layout_marginLeft="166dp"
-                android:layout_marginStart="166dp"
-                app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginBottom="10dp"
-                app:layout_constraintBottom_toTopOf="@+id/textView9"/>
+                android:layout_marginLeft="36dp"
+                android:layout_marginStart="36dp"/>
 
         <Spinner
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="37dp"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown"
                 android:id="@+id/sp_keluarahan"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                app:layout_constraintStart_toEndOf="@+id/sp_provinsi"
-                android:layout_marginLeft="166dp"
-                android:layout_marginStart="166dp"
-                app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginBottom="43dp"
-                app:layout_constraintBottom_toTopOf="@+id/textView12"/>
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="44dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView12"
+                app:layout_constraintStart_toEndOf="@+id/sp_kecamatan"
+                android:layout_marginLeft="36dp"
+                android:layout_marginStart="36dp"/>
 
         <Spinner
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="37dp"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown"
@@ -301,7 +301,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/textView10"/>
 
         <Spinner
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="37dp"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown"
@@ -346,7 +346,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Patokan"
                 android:ems="10"
                 android:id="@+id/et_patokan_firstlogin"
                 app:layout_constraintStart_toStartOf="parent"
@@ -358,7 +357,7 @@
                 android:textSize="12sp"
                 android:fontFamily="@font/telex"
                 android:layout_marginBottom="22dp"
-                app:layout_constraintBottom_toTopOf="@+id/textView13"/>
+                app:layout_constraintBottom_toTopOf="@+id/textView13" android:hint="Patokan"/>
 
         <TextView
                 android:text="EMAIL (jika ada)*"
@@ -394,7 +393,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Email"
                 android:ems="10"
                 android:id="@+id/et_email_firstlogin"
                 app:layout_constraintStart_toStartOf="parent"
@@ -406,7 +404,7 @@
                 android:fontFamily="@font/telex"
                 android:textSize="12sp"
                 android:layout_marginBottom="32dp"
-                app:layout_constraintBottom_toTopOf="@+id/textView14"/>
+                app:layout_constraintBottom_toTopOf="@+id/textView14" android:hint="Email"/>
 
         <TextView
                 android:text="*Tidak wajib untuk di isi"
@@ -461,7 +459,7 @@
                 android:background="@drawable/bg_btn_konfirmasi"
                 android:textColor="@android:color/white"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"/>
     </android.support.constraint.ConstraintLayout>
 
 

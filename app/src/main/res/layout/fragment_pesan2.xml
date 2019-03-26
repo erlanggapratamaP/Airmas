@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".HomeOrder.Pesan2Fragment"
+             android:background="@color/colorPrimaryDark">
+
+  <android.support.constraint.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+      <TextView
+              android:text="Gratis 1 galon"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/gold"
+              android:fontFamily="@font/telex"
+              tools:layout_editor_absoluteX="161dp"
+              android:id="@+id/textView18"
+              android:layout_marginBottom="10dp"
+              app:layout_constraintBottom_toTopOf="@+id/imageView5"/>
+
+      <ImageView
+              android:src="@drawable/bg_gallon_emas"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              tools:layout_editor_absoluteY="214dp"
+              tools:layout_editor_absoluteX="141dp"
+              android:id="@+id/imageView5"/>
+      <Button
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              tools:layout_editor_absoluteY="266dp"
+              android:background="@drawable/arrow_left"
+              android:id="@+id/button"
+              app:layout_constraintEnd_toStartOf="@+id/imageView4"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginLeft="35dp"
+              android:layout_marginStart="35dp"
+              app:layout_constraintHorizontal_bias="0.0"/>
+
+      <Button
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              tools:layout_editor_absoluteY="266dp"
+              android:background="@drawable/arrow_right"
+              android:id="@+id/button2"
+              app:layout_constraintStart_toEndOf="@+id/imageView4"
+              android:layout_marginEnd="36dp"
+              android:layout_marginRight="36dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"/>
+
+      <TextView
+              android:text="Gunakan kupon"
+              android:layout_width="wrap_content"
+              android:layout_height="21dp"
+              android:textColor="@color/white"
+              android:fontFamily="@font/telex"
+              tools:layout_editor_absoluteX="153dp"
+              android:id="@+id/tv_jml_pesanan"
+              android:layout_marginBottom="16dp"
+              app:layout_constraintBottom_toTopOf="@+id/button3"/>
+
+      <Button
+              android:layout_width="170dp"
+              android:layout_height="60dp"
+              tools:layout_editor_absoluteY="552dp"
+              android:background="@drawable/btn_back"
+              android:id="@+id/button3"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginLeft="16dp"
+              android:layout_marginStart="16dp"/>
+
+      <Button
+              android:layout_width="170dp"
+              android:layout_height="60dp"
+              tools:layout_editor_absoluteY="552dp"
+              android:background="@drawable/btn_next"
+              android:id="@+id/button4"
+              android:layout_marginEnd="16dp"
+              android:layout_marginRight="16dp"
+              app:layout_constraintEnd_toEndOf="parent"/>
+
+
+  </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

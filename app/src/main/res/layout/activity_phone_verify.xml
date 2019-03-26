@@ -56,7 +56,8 @@
 				android:fontFamily="@font/telex"
 				android:textColorHint="@color/colorPrimary"
 				android:textColorHighlight="@color/colorPrimary"
-				android:textColor="@color/colorPrimary"/>
+				android:textColor="@color/colorPrimary"
+				android:inputType="number"/>
 
 		<Button
 				android:layout_width="wrap_content"
@@ -64,9 +65,11 @@
 				android:id="@+id/btn_konfirmasi"
 				android:layout_gravity="center"
 				android:background="@drawable/konfirm"/>
+
 		<TextView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:id="@+id/kodeReset"
 				android:layout_marginTop="20dp"
 				android:textColor="@color/colorPrimary"
 				android:fontFamily="@font/telex"
